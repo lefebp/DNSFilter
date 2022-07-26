@@ -64,9 +64,10 @@
 
 ! ——— Main UNBLOCK list ———
 
-! ——— UNBLOCK some Microsoft sites for Authenticator App sync and Microsoft Family ———
-@@||edge.activity.windows.com^
-@@||activity.windows.com^
+! ——— UNBLOCK some Microsoft sites for Authenticator App sync and Microsoft Family on specific devices ———
+#@@||edge.activity.windows.com^$client='GamingPC'
+#@@||edge.activity.windows.com^$client='Samsung S9'
+#@@||activity.windows.com^$client='Samsung S9'
 
 ! ——— UNBLOCK some debian sites for Network Time Protocol ———
 @@||0.debian.pool.ntp.org^
