@@ -1,0 +1,5 @@
+! Title: Blocklist by spy_spirit
+! Description: This is my personal blocklist for AdGuard Home based on manually blocked sites.
+! Source: https://raw.githubusercontent.com/lefebp/AdGuardDNSFilter/master/adguard.txt
+! Home: https://github.com/lefebp/AdGuardDNSFilter
+! License: MIT (https://mit-license.org/)
