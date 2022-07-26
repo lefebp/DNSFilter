@@ -6,12 +6,12 @@
 
 
 
-! ——— Main Block list. ———
+! ——— Main BLOCK list. ———
 
-! ——— Block .ru Russian domain. ———
+! ——— BLOCK .ru Russian domain. ———
 /\.ru$/^
 
-! ——— Block RT.com, Russian state-controlled international television network. ———
+! ——— BLOCK RT.com, Russian state-controlled international television network. ———
 ||rt.com^
 
 ! ——— Block Google from IoT devices. ———
@@ -21,7 +21,7 @@
 ||www.google.com^$client='WYZE Salon'
 ||www.google.com^$client='Lutron'
 
-! ——— Other. ———
+! ——— Other BLOCKED. ———
 ||m.stripe.network^
 ||graph.facebook.com^
 ||updater.techsmith.com^
@@ -62,20 +62,20 @@
 
 
 
-! ——— Main Unblock list. ———
+! ——— Main UNBLOCK list. ———
 
-! ——— Unblock some Microsoft sites for Authenticator sync and Microsoft Family. ———
+! ——— UNBLOCK some Microsoft sites for Authenticator sync and Microsoft Family. ———
 @@||edge.activity.windows.com^
 @@||activity.windows.com^
 
-! ——— Unblock some debian sites for Network Time Protocol. ———
+! ——— UNBLOCK some debian sites for Network Time Protocol. ———
 @@||0.debian.pool.ntp.org^
 @@||1.debian.pool.ntp.org^
 @@||2.debian.pool.ntp.org^
 
-! ——— Unblock some Google sites for google Home. ———
+! ——— UNBLOCK some Google sites for google Home. ———
 @@||beacons.gvt2.com^
 @@||app-measurement.com^
 
-! ——— Other. ———
+! ——— Other UNBLOCKED. ———
 @@||cover.inkedmag.com^
