@@ -3,3 +3,79 @@
 ! Source: https://raw.githubusercontent.com/lefebp/AdGuardDNSFilter/master/adguard.txt
 ! Home: https://github.com/lefebp/AdGuardDNSFilter
 ! License: MIT (https://mit-license.org/)
+
+
+
+! ——— Main Block list. ———
+
+! ——— Block .ru Russian domain. ———
+/\.ru$/^
+
+! ——— Block RT.com, Russian state-controlled international television network. ———
+||rt.com^
+
+! ——— Block Google from IoT devices. ———
+||www.google.com^$client='WYZE Avant'
+||www.google.com^$client='WYZE Arrière'
+||www.google.com^$client='WYZE Cuisine'
+||www.google.com^$client='WYZE Salon'
+||www.google.com^$client='Lutron'
+
+! ——— Other. ———
+||m.stripe.network^
+||graph.facebook.com^
+||updater.techsmith.com^
+||download.techsmith.com^
+||www.techsmith.com^
+||wildapricot.com^
+||bilibili.tv^
+||blocs.news^
+||bux.fun^
+||cadeauxagagner.fr^
+||clickloot.com^
+||csgopoints.com^
+||cybersectors.com^
+||dontruko.com^
+||gamecodeclaim.com^
+||gamehag.com^
+||gameovermania.com^
+||gamesappro.blogspot.com^
+||gentside.com^
+||marriedgames.com.br^
+||mejoress.com^
+||mondespersistants.com^
+||moroesports.com^
+||nihcara.com^
+||quora.com^
+||rblx.land^
+||realme.com^
+||rocash.com^
+||scoopearth.com^
+||sharpygamers.com^
+||sosordinateurs.com^
+||spedcash.com^
+||startriks.com^
+||superjouer.fr^
+||theglobalgaming.com^
+||todoroblox.com^
+||tsunamy.fr^
+
+
+
+! ——— Main Unblock list. ———
+
+! ——— Unblock some Microsoft sites for Authenticator sync and Microsoft Family. ———
+@@||edge.activity.windows.com^
+@@||activity.windows.com^
+
+! ——— Unblock some debian sites for Network Time Protocol. ———
+@@||0.debian.pool.ntp.org^
+@@||1.debian.pool.ntp.org^
+@@||2.debian.pool.ntp.org^
+
+! ——— Unblock some Google sites for google Home. ———
+@@||beacons.gvt2.com^
+@@||app-measurement.com^
+
+! ——— Other. ———
+@@||cover.inkedmag.com^
