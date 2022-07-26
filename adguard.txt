@@ -1,27 +1,27 @@
 ! Title: Blocklist by spy_spirit
-! Description: This is my personal blocklist for AdGuard Home based on manually blocked sites.
+! Description: This is my personal blocklist for AdGuard Home, based on manually blocked sites.
 ! Source: https://raw.githubusercontent.com/lefebp/AdGuardDNSFilter/master/adguard.txt
 ! Home: https://github.com/lefebp/AdGuardDNSFilter
 ! License: MIT (https://mit-license.org/)
 
 
 
-! ——— Main BLOCK list. ———
+! ——— Main BLOCK list ———
 
-! ——— BLOCK .ru Russian domain. ———
+! ——— BLOCK .ru Russian domain ———
 /\.ru$/^
 
-! ——— BLOCK RT.com, Russian state-controlled international television network. ———
+! ——— BLOCK RT.com, Russian state-controlled international television network ———
 ||rt.com^
 
-! ——— Block Google from IoT devices. ———
+! ——— BLOCK Google from IoT devices ———
 ||www.google.com^$client='WYZE Avant'
 ||www.google.com^$client='WYZE Arrière'
 ||www.google.com^$client='WYZE Cuisine'
 ||www.google.com^$client='WYZE Salon'
 ||www.google.com^$client='Lutron'
 
-! ——— Other BLOCKED. ———
+! ——— Other BLOCKED ———
 ||m.stripe.network^
 ||graph.facebook.com^
 ||updater.techsmith.com^
@@ -62,20 +62,20 @@
 
 
 
-! ——— Main UNBLOCK list. ———
+! ——— Main UNBLOCK list ———
 
-! ——— UNBLOCK some Microsoft sites for Authenticator sync and Microsoft Family. ———
+! ——— UNBLOCK some Microsoft sites for Authenticator App sync and Microsoft Family ———
 @@||edge.activity.windows.com^
 @@||activity.windows.com^
 
-! ——— UNBLOCK some debian sites for Network Time Protocol. ———
+! ——— UNBLOCK some debian sites for Network Time Protocol ———
 @@||0.debian.pool.ntp.org^
 @@||1.debian.pool.ntp.org^
 @@||2.debian.pool.ntp.org^
 
-! ——— UNBLOCK some Google sites for google Home. ———
+! ——— UNBLOCK some Google sites for google Home ———
 @@||beacons.gvt2.com^
 @@||app-measurement.com^
 
-! ——— Other UNBLOCKED. ———
+! ——— Other UNBLOCKED ———
 @@||cover.inkedmag.com^
