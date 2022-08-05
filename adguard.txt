@@ -14,6 +14,10 @@
 ! ——— BLOCK RT.com, Russian state-controlled international television network ———
 ||rt.com^
 
+! ——— BLOCK Apple domain ———
+||apple.com^
+||apple.ca^
+
 ! ——— BLOCK Google from IoT devices ———
 ||www.google.com^$client='WYZE Avant'
 ||www.google.com^$client='WYZE Arrière'
