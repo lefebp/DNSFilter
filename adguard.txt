@@ -1160,7 +1160,7 @@
 
 ! ——— Other BLOCKED ———
 ||m.stripe.network^
-||graph.facebook.com^
+#||graph.facebook.com^
 ||updater.techsmith.com^
 ||download.techsmith.com^
 ||www.techsmith.com^
